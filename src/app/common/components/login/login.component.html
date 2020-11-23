@@ -1,5 +1,16 @@
-<p>
-  login works!
-  <button (click)="gotToMain()"> Click Me </button>
-</p>
-
+<ion-content>
+  <div class="login ion-display-flex ion-justify-content-center ion-align-items-center ion-padding">
+    <div class="title-logo">
+      <h3>Logo here</h3>
+    </div>
+    <div class="login-fields ion-width-full">
+      <ion-input placeholder="Email or Number" class="custom-input"></ion-input>
+      <ion-input placeholder="Password" class="custom-input"></ion-input>
+      <p class="forgot-text">Forgot Password</p>
+    </div>
+    <ion-button (click)="gotToMain()" class="click-btn" expand="full" shape="round">login</ion-button>
+    <div class="user-text">
+      Are you new user? Sign up
+    </div>
+  </div>
+</ion-content>

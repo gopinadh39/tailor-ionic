@@ -1,0 +1,43 @@
+.login {
+    // background-image: url("https://img.freepik.com/free-photo/tailoring-processs_1098-17986.jpg?size=626&ext=jpg");
+    // background-size: 100% 100%;
+    background-color: #04064d;
+    height: 100%;
+    flex-direction: column;
+    .login-fields {
+        .custom-input {
+            background-color: white;
+            font-size: 14px;
+            margin-bottom: 10px;
+            // height: 40px;
+            border-radius: 2px;
+        }
+        .forgot-text {
+            color: white;
+            font-size: 12px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+    }
+    .user-text {
+        color: white;
+        bottom: 20px;
+        position: absolute;
+    }
+    .title-logo {
+        position: absolute;
+        top: 50px;
+        color: white;
+        font-family: "OpenSans-ExtraBold";
+        h3 {
+            font-size: 30px;
+        }
+    }
+}
+
+.click-btn {
+    width: 100%;
+    bottom: 20px;
+    height: 36px;
+    --border-radius: 2px;
+}
